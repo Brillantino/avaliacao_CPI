@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Pizzaria</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Nathan Brillantino" />
+    <meta name="keywords" content="pizzaria,pedir " />
+    <meta name="description" content="a melhor pizzaria />
+
+</head>
+    
+
+<body link=" #00000" alink="#000000" vlink="#000000">
+    <div align="right">
+        <font face=" Pangolin" size="5">
+            <a href="#">Home</a>
+            <a href="#bebidas">Sobre</a>
+            <a href="#graos">Cardapio</a>
+            <a href="#colheita">encomendas</a>
+        </font>
+    </div>
+    <img src="img/banner.jpg" alt="um banner com uma pizza " width="100%" height="500" />
+
+
+    <hr />
+    <font face="Pangolin" size="4" color="#000000">
+        <h1><u>Domino's Pizza</u></h1>
+    </font>
+
+    <font face="Pangolin" size="6" color="#616161">
+        <p> Domino's Pizza é uma empresa de alimentação baseada em pizzas. Atualmente, é a maior rede de
+            entregas de pizzas do mundo, com 13.000 lojas em 83 países.</p>
+
+        <hr>
+        <font face="Pangolin" size="4" color="#000000">
+            <h1>Cardapio</h1>
+        </font>
+        <p>Nosso Cardapio Com diversos sabores:</p>
+        <table align="center" border="1">
+
+
+            <tr >
+                <td colspan="2"><img src="img/calabresa.jpg" width="350" /></td>
+                <td colspan="2"><img src="img/camarao.jpg" width="350" />
+                <td colspan="2" ><img src="img/mussarela.jpg" width="350" />
+                <td colspan="2"><img src="img/portuguesa.jpg" width="350" />
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td>Calabresa</td>
+                <td>R$25,00</td>
+                <td>Camarão</td>
+                <td>R$35,00</td>
+                <td>Mussarela</td>
+                <td>R$20,00</td>
+                <td>Portuguesa</td>
+                <td>R$35,00</td>
+
+            </tr>
+        </table>
+        <hr>
+        <form>
+            <font face=" Pangolin" size="6">
+                <label for="name">Nome:</label><br />
+                <input id="name" type="text" name="Nome" placeholder="Nome Completo" size="50" width="3" /><br />
+                <label for="telefone">E-mail:</label><br />
+                <input id="telefone" type="email" name="Nome" placeholder="E-mail" size="50" /><br /><br />
+
+                <label for="pizzas">Selecione a pizza:</label><br />
+                <select id="pizzas" name="pizzas" form="pizzas">
+                    <option></option>
+                    <option value="calabresa">Calabresa</option>
+                    <option value="camarao">camarao</option>
+                    <option value="mussarela">mussarela</option>
+                    <option value="portuguesa">portuguesa</option>
+                </select>
+                <h1>Encomendas</h1>
+                <fieldset>
+
+                    <input type="radio" name="entrega" value="entrega"> Delivery<br>
+                    <input type="radio" name="entrega" value="entrega"> Retirar no local
+                </fieldset>
+                <br>
+                <label for="textarea">Comentarios:</label> <br>
+                <textarea rows="10" cols="40">
+ 
+                </textarea>
+                <p>
+                    <input type="submit" name="Pedir" value="Pedir">
+                    <input type="submit" name="Cancelar" value="Cancelar">
+
+                </p>
+                
+            </font>
+        </form>
+        <hr>
+        <p align="center">Desenvolvido por <a href="https://nathanbrillantino.com" target="_blank">Nathan
+                Brillantino</a>-2021</p>
+
+    </font>
+
+    </body>
+
+</html>
